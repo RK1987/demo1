@@ -14,9 +14,9 @@ public class HelloWorldController {
  
     @GetMapping("/hello")
     public String sayHello() {
-    	String topicArn = "arn:aws:sns:eu-west-1:383485234595:test";
-        String awsAccount = "AKIAVSSMAJWR74UIQFWL";
-        String awsSecret = "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";
+    	String topicArn = "XXXXX";
+        String awsAccount = "XXXX";
+        String awsSecret = "XXXX";
         String region = "EU_WEST_1";
 //        Region re = new Region("eu-west-1", "EU (Ireland)");
 //        Regions region1 = new Regions("eu-west-1", "EU (Ireland)");
